@@ -6,6 +6,6 @@ CONFIG ={
 		    '--daemon',
 	    	'--workers=2',
 	    	'--timeout=60',
-		    'hello:wsgi_app',
+		    'hello:app',
 		    ),
 	}
